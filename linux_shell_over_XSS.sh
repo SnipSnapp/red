@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # Check if IP and PORT are provided as command line arguments
+# IP AND PORT SHOULD BE: your IP and port your nc is listening on.
+# This is for an XSS Shell.
 if [ "$#" -ne 2 ]; then
     echo "Usage: $0 <IP> <PORT>"
     exit 1
