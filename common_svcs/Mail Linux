@@ -1,1 +1,3 @@
+sudo apt-get install evolution
+#IFF ERror: export WEBKIT_FORCE_SANDBOX=0 && evolution
 
