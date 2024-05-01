@@ -1,0 +1,5 @@
+MSSQL---
+sqlcmd -S 10.129.20.13 -U username -P Password123
+
+MYSQL---
+mysql.exe -u username -pPassword123 -h 10.129.20.13
